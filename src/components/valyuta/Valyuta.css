@@ -1,0 +1,29 @@
+body{background-color: green;
+color: white;}
+.container{display:flex;
+gap:30px;
+}
+.container input{box-sizing: border-box;
+border-radius: 20px;
+border-style: dashed;
+text-align: center;
+font-weight: bold;
+color: green;}
+.container button{box-sizing: border-box;
+    border-style: none;
+border-radius: 20px;
+color: green;
+font-weight: bold;
+font-size: 20px;}
+.container button:hover{color:blue;
+    background-color: blueviolet;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);}
+    @media (max-width: 816px) {
+        .container {display: flex;
+        align-items: center;
+    justify-content: center;
+flex-direction: column;}
+ .container input{padding: 10px;}       
+  .container select {font-size:20px;}    }
